@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PromptX" parent="Theme.MaterialComponents.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.PromptX.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!--开启时的颜色-->
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <!--关闭时的颜色-->
+        <item name="colorSwitchThumbNormal">@color/colorPrimary</item>
+        <!--关闭时的轨迹颜色-->
+        <item name="android:colorForeground">@color/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.PromptX.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.PromptX.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FloatImageFunction">
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_float_function</item>
+    </style>
+</resources>
